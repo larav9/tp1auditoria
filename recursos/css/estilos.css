@@ -1,0 +1,92 @@
+body{
+    background-image: url('../imagenes/fondo1.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 400px; 
+    padding: 30px;
+    color: rgb(224, 250, 222);
+    text-align: center;
+}
+
+.fondo2 {
+    background-image: url('../imagenes/fondo2.jpg'); 
+    background-size: cover;
+    min-height: 400px;
+    padding: 10px;
+}
+
+/* Contenedor principal del formulario */
+.formulario-cliente{
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+/* tarjeta */
+.formulario-cliente .card{
+    background: rgba(140, 185, 87, 0.85);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    color: rgb(224,250,222);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Cabecera */
+.formulario-cliente .card-header{
+    background: rgba(0,0,0,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.formulario-cliente .card-header h4{
+    margin: 0;
+}
+
+/* Cuerpo */
+.formulario-cliente .card-body{
+    padding: 25px;
+}
+
+/* Labels */
+.formulario-cliente label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* Inputs */
+.formulario-cliente .form-control{
+    background-color: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.formulario-cliente .form-control:focus{
+    box-shadow: 0 0 8px rgba(120,255,120,0.5);
+    outline: none;
+}
+
+/* Botones */
+.formulario-cliente .acciones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.formulario-cliente .btn{
+    min-width: 120px;
+}
+
+/* Hover */
+.formulario-cliente .btn-success:hover{
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+.formulario-cliente .btn-danger:hover{
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
